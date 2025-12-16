@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-100 p-4 md:p-6">
-        <div className="container bg-white flex max-w-7xl border border-stone-200/50 glass-panel px-6 py-3  mx-auto rounded-full justify-between items-center shadow-sm shadow-amber-50">
+        <div className="container bg-white flex max-w-7xl border border-stone-200/50 glass-panel px-6 py-3  mx-auto rounded-full justify-between items-center shadow-sm shadow-gold-500">
                 {/* logo */}
                 <div className="mr-10">
                     <Link href={'/'}>
@@ -67,7 +67,7 @@ const Navbar = () => {
                             // <Link href={navLink.href} className=" font-medium text-forest-900 
                             // hover:text-forest-700 transition-colors border-b border-b-gold-500" >{navLink.label}</Link>
                             <Link onClick={() => setNavName(navLink.label)} href={navLink.href} className={`uppercase p-1.5 inline-block
-                                text-gold-500 hover:text-white transition-color transition-transform
+                                text-forest-900 hover:text-gold-500 transition-color transition-transform
                                 font-medium ${navName === navLink.label ? "border-b-2 border-white" : "" }`}>
                                     {navLink.label}
                             </Link>
