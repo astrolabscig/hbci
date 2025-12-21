@@ -30,6 +30,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [navName, setNavName] = useState('Home');
     const pathName = usePathname();
+    
 
     const handleClick = () => {
         setMenuOpen(!menuOpen);
@@ -50,7 +51,7 @@ const Navbar = () => {
                     <TextAlignJustify />
                 </button>
 
-                <div className={`top-20 right-10 bg-white rounded-b-xl border border-text-forest-900 border-t-0 md:hidden transition-all ${menuOpen ? 'absolute' : 'hidden'}`}>
+                <div className={`top-15 right-10 bg-white rounded-b-xl border border-text-forest-900 border-t-0 md:hidden transition-all ${menuOpen ? 'absolute' : 'hidden'} `}>
                     <div className="flex flex-col w-40 p-1 transition-all">
                         {navLinks.map((navLink, index) => {
                         return(
@@ -66,8 +67,6 @@ const Navbar = () => {
                 <div className="hidden md:flex items-center space-x-5 md:gap-4">
                     {navLinks.map((navLink , index) => {
                         return(
-                            // <Link href={navLink.href} className=" font-medium text-forest-900 
-                            // hover:text-forest-700 transition-colors border-b border-b-gold-500" >{navLink.label}</Link>
                             <Link key={index} onClick={() => setNavName(navLink.label)} href={navLink.href} className={`uppercase p-1.5 inline-block
                                 text-forest-900 hover:text-gold-500 transition-color transition-transform
                                 font-medium ${navName === navLink.label ? "text-gold-500" : "" }`}>

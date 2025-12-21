@@ -3,8 +3,8 @@ import React from 'react'
 
 const ContactCard = () => {
   return (
-        <section id="contact" className="pt-20 m-8">
-            <div className="bg-stone-900 rounded-[2.5rem] p-8 md:p-12 overflow-hidden relative text-white">
+        <section id="contact" className="pt-20 m-4">
+            <div className="bg-stone-900 rounded-[2.5rem] p-5 md:p-12 overflow-hidden relative text-white">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 relative z-10">
                     <div>
                         <div className="inline-block bg-stone-800 border border-gold-500 rounded-full px-4 py-1.5 mb-6">
@@ -38,7 +38,7 @@ const ContactCard = () => {
                     </div>
 
                     {/* <!-- Booking Widget Form --> */}
-                    <div className="bg-white text-stone-900 rounded-2xl p-6 md:p-8 shadow-2xl">
+                    <div className="bg-white text-stone-900 rounded-2xl p-4 md:p-8 shadow-2xl">
                         <div className="flex items-center justify-between mb-6">
                             <h3 className="text-lg font-semibold">Visit Details</h3>
                         </div>
