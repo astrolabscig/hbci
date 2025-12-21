@@ -31,7 +31,7 @@ const Hero = () => {
 
             {/* call to action */}
             <div className='justify-center'>
-                <a href="/" className='btn-secondary'>
+                <a href="#about" className='btn-secondary'>
                     Learn More
                 </a>
             </div>

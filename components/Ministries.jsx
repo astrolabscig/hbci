@@ -62,9 +62,10 @@ const Ministries = () => {
         </div>
         <div className="flex mx-auto w-full p-10">   
             <div className="grid grid-cols-1 md:grid-cols-3 mx-auto  gap-6">
-                {ministriesData.map((ministry) => {
+                {ministriesData.map((ministry, index) => {
                     return(
                     <MinistryCard 
+                        key={index}
                         title={ministry.title} 
                         description={ministry.description} 
                         imageUrl={ministry.imageUrl} 

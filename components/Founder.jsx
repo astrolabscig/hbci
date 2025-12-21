@@ -2,7 +2,7 @@
 
 const Founder = () => {
   return (
-      <section className="py-24 bg-forest-900 text-white relative overflow-hidden">
+      <section className="py-24 bg-forest-900 text-white relative overflow-hidden" id="about">
           <div className="max-w-7xl mx-auto px-6 relative z-10">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                   <div>
