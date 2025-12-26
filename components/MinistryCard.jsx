@@ -1,7 +1,8 @@
+import Link from "next/link"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card"
 
 
-export const MinistryCard = ({ title, description, imageUrl, icon: Icon, leader}) => {
+export const MinistryCard = ({ title, description, link, icon: Icon, leader}) => {
   return (
     <Card className='max-w-sm border-none'>
       <CardContent>
@@ -23,7 +24,9 @@ export const MinistryCard = ({ title, description, imageUrl, icon: Icon, leader}
           <img className="w-9 h-9 rounded-full" src="/hero.png" alt="" />
           <p className="text-sm ">Leader: {leader}</p>
         </div>
-        <button className="bg-forest-900 p-2.5 rounded-lg text-gold-500">Learn More</button>
+        <Link href={link} className="bg-forest-900 p-2.5 rounded-lg text-gold-500 hover:scale-110 transition-all">
+          Learn More
+        </Link>
       </CardFooter>
     </Card>
   )

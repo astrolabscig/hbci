@@ -5,6 +5,7 @@ const ministriesData = [
   {
     id: 'm1',
     title: 'Music Ministry',
+    link: '/',
     description: 'Leading the congregation in heartfelt and engaging worship through music and arts, preparing hearts to receive the Word of God.',
     focus: ['Music', 'Choir', 'Sound & Tech'],
     imageUrl: 'https://i.ibb.co/L5hY5m9/worship-ministry.jpg', // Placeholder image URL
@@ -15,6 +16,7 @@ const ministriesData = [
   {
     id: 'm2',
     title: 'Children\'s Ministry (KidZone)',
+    link: '/',
     description: 'Dedicated to teaching children from nursery through 5th grade about Jesus Christ in a safe, fun, and age-appropriate environment.',
     focus: ['Sunday School', 'VBS', 'Nursery'],
     imageUrl: 'https://i.ibb.co/xJ2s7dC/children-ministry.jpg',
@@ -25,6 +27,7 @@ const ministriesData = [
   {
     id: 'm3',
     title: 'Youth Ministry (Ignite)',
+    link: '/youth',
     description: 'Empowering middle and high school students to own their faith, build strong relationships, and impact their schools and communities for Christ.',
     focus: ['Small Groups', 'Mission Trips', 'Fellowship Events'],
     imageUrl: 'https://i.ibb.co/q1zR0Pz/youth-ministry.jpg',
@@ -35,6 +38,7 @@ const ministriesData = [
   {
     id: 'm4',
     title: 'Outreach & Missions',
+    link: '/',
     description: 'Reaching out locally and globally to serve those in need, sharing the gospel through acts of service and tangible assistance.',
     focus: ['Local Homeless Shelter', 'Global Missions', 'Community Service'],
     imageUrl: 'https://i.ibb.co/5G7m8ZJ/outreach-ministry.jpg',
@@ -45,6 +49,7 @@ const ministriesData = [
   {
     id: 'm6',
     title: 'Tech & Media Ministry',
+    link: '/',
     description: 'Managing all audiovisual elements for services, including livestreaming, website maintenance, graphic design, and social media presence.',
     focus: ['Livestreaming', 'Website', 'Social Media'],
     imageUrl: 'https://i.ibb.co/b3wP7F0/tech-ministry.jpg',
@@ -56,7 +61,7 @@ const ministriesData = [
 
 const Ministries = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="ministries" >
         <div className="items-center text-center">
             <h2 className="text-4xl font-semibold">Our Ministries</h2>
         </div>
@@ -67,6 +72,7 @@ const Ministries = () => {
                     <MinistryCard 
                         key={index}
                         title={ministry.title} 
+                        link={ministry.link}
                         description={ministry.description} 
                         imageUrl={ministry.imageUrl} 
                         icon={ministry.icon}

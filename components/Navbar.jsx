@@ -12,7 +12,7 @@ const navLinks = [
         label:"Home"
     },
     {
-        href:"#about",
+        href:"/#about",
         label:"About"
     },
     {
@@ -20,7 +20,11 @@ const navLinks = [
         label:"Gallery"
     },
     {
-        href:"#contact",
+        href:"/#ministries",
+        label:"Ministries"
+    },
+    {
+        href:"/#contact",
         label:"Contact"
     },
 ]

@@ -19,7 +19,17 @@ const page = () => {
               </p>
             </div>
       </header>
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-5 p-5">
       <GalleryCard />
+      <GalleryCard />
+      <GalleryCard />
+      <GalleryCard />
+      <GalleryCard />
+      <GalleryCard />
+      <GalleryCard />
+      <GalleryCard />
+      <GalleryCard />
+      </section>
 
     </div>
   )
