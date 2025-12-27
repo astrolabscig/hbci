@@ -110,7 +110,7 @@ const PastorSlider = () => {
             </Swiper>
             
         {/* --- CUSTOM NAVIGATION BUTTONS --- */}
-      <button 
+      {/* <button 
         ref={prevRef}
         className="absolute -left-12.5 top-1/2 -translate-y-1/2 z-10 p-2 bg-indigo-600 text-white rounded-full shadow-lg hover:bg-indigo-700 transition-all disabled:opacity-20"
       >
@@ -122,7 +122,7 @@ const PastorSlider = () => {
         className="absolute -right-12.5 top-1/2 -translate-y-1/2 z-10 p-2 bg-indigo-600 text-white rounded-full shadow-lg hover:bg-indigo-700 transition-all disabled:opacity-20"
       >
         <ChevronRight size={24} />
-      </button>
+      </button> */}
         </div>
 
 

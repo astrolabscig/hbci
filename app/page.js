@@ -1,4 +1,5 @@
 import ContactCard from "@/components/ContactCard";
+import DailyDevotional from "@/components/DailyDevotional";
 import Founder from "@/components/Founder";
 import Hero from "@/components/Hero";
 import Ministries from "@/components/Ministries";
@@ -13,6 +14,7 @@ export default function Home() {
       <Founder />
       <PastorSlider />
       <Ministries />
+      <DailyDevotional />
       <ContactCard />
     </div>
   );

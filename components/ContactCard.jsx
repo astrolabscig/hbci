@@ -4,14 +4,14 @@ import React from 'react'
 const ContactCard = () => {
   return (
         <section id="contact" className="pt-20 m-4">
-            <div className="bg-stone-900 rounded-[2.5rem] p-5 md:p-12 overflow-hidden relative text-white">
+            <div className="bg-forest-900 rounded-[2.5rem] p-5 md:p-12 overflow-hidden relative text-white">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 relative z-10">
                     <div>
                         <div className="inline-block bg-stone-800 border border-gold-500 rounded-full px-4 py-1.5 mb-6">
                             <span className="text-xs font-medium uppercase tracking-wider text-stone-300">Join us</span>
                         </div>
                         <h2 className="text-3xl md:text-5xl font-semibold tracking-tight mb-6">Plan your first <span className="text-gold-500">Visit</span> </h2>
-                        <p className="text-stone-400 text-lg mb-8 leading-relaxed">
+                        <p className="text-slate-200 text-lg mb-8 leading-relaxed">
                             We know visiting a new church can be intimidating. Let us know you're coming, and we'll save a seat, help with kids check-in, and show you around.
                         </p>
                         

@@ -8,13 +8,13 @@ const Founder = () => {
                 <div>
                     <span className="inline-block px-3 py-1 bg-slate-800 text-xs font-medium text-slate-300 mb-6">Latest Message</span>
                     <h2 className="text-3xl md:text-5xl font-semibold tracking-tight mb-6">Meet Our Leaders <br/><span className="text-gold-500">Gods Warriors</span></h2>
-                    <p className="text-slate-400 text-lg mb-8 leading-relaxed max-w-lg">
+                    <p className="text-slate-200 mb-8 leading-relaxed max-w-lg">
                         Join us as we explore what it means to trust God in every season of life. In this week's message, Pastor John dives into Hebrews 11.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                         <button className="flex items-center justify-center gap-2 px-6 py-3 bg-white text-slate-900 rounded-full text-sm font-medium hover:bg-slate-100 transition-colors">
                             <span className="iconify" data-icon="lucide:play-circle" data-width="18"></span>
-                            About them
+                            Learn More
                         </button>
                     </div>
                 </div>

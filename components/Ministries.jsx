@@ -5,7 +5,7 @@ const ministriesData = [
   {
     id: 'm1',
     title: 'Music Ministry',
-    link: '/',
+    link: '/music',
     description: 'Leading the congregation in heartfelt and engaging worship through music and arts, preparing hearts to receive the Word of God.',
     focus: ['Music', 'Choir', 'Sound & Tech'],
     imageUrl: 'https://i.ibb.co/L5hY5m9/worship-ministry.jpg', // Placeholder image URL
@@ -16,7 +16,7 @@ const ministriesData = [
   {
     id: 'm2',
     title: 'Children\'s Ministry (KidZone)',
-    link: '/',
+    link: '/children',
     description: 'Dedicated to teaching children from nursery through 5th grade about Jesus Christ in a safe, fun, and age-appropriate environment.',
     focus: ['Sunday School', 'VBS', 'Nursery'],
     imageUrl: 'https://i.ibb.co/xJ2s7dC/children-ministry.jpg',
@@ -49,7 +49,7 @@ const ministriesData = [
   {
     id: 'm6',
     title: 'Tech & Media Ministry',
-    link: '/',
+    link: '/media',
     description: 'Managing all audiovisual elements for services, including livestreaming, website maintenance, graphic design, and social media presence.',
     focus: ['Livestreaming', 'Website', 'Social Media'],
     imageUrl: 'https://i.ibb.co/b3wP7F0/tech-ministry.jpg',
